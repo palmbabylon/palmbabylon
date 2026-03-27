@@ -358,7 +358,7 @@ export default function App() {
       <header className={scrolled ? 'scrolled' : ''}>
         <nav className="nav-container">
           <a href="#home" className="logo" onClick={(e) => handleNavClick(e, 'home')}>
-            <LogoSvg className="logo-svg" />
+            <img src="palm-of-babylon-logo.png" alt="نخلة بابل" className="logo-svg" />
             <div className="logo-text">
               <span className="ar">نخلة بابل</span>
               <span className="en">PALM OF BABYLON</span>
@@ -394,7 +394,7 @@ export default function App() {
       <section className="hero" id="home">
         <div className="hero-container">
           <div className="hero-content">
-            <HeroLogoSvg isDark={isDark} />
+            <img src="palm-of-babylon-logo.png" alt="نخلة بابل للسياحة والسفر" className="hero-logo-main" />
             <h1>اكتشف العالم مع <span>نخلة بابل</span></h1>
             <p>نحن نصنع رحلات لا تُنسى. من حجز تذاكر الطيران إلى ترتيب أفضل الفنادق والجولات السياحية، نحن معك في كل خطوة.</p>
             <div className="hero-buttons">
@@ -656,7 +656,7 @@ export default function App() {
         <div className="footer-container">
           <div className="footer-brand">
             <div className="logo-footer">
-              <FooterLogoSvg />
+              <img src="palm-of-babylon-logo.png" alt="نخلة بابل" style={{height:'70px', width:'auto'}} />
               <div className="logo-footer-text">
                 <div className="ar">نخلة بابل للسياحة والسفر</div>
                 <div className="en">PALM OF BABYLON</div>
